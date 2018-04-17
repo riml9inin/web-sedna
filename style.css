@@ -1,0 +1,298 @@
+@media screen and (min-width: 1000px) {
+    body {
+        margin: 0;
+    }
+    .up {
+        display: none;
+    }
+    .logotip {
+        font-size: 24px; 
+        color: lightgrey;
+    }
+    .logColor, h1, 
+    .mainText {
+        color: white;
+        margin: 0;
+    }
+     ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .sing {
+        padding: 10px 30px;
+        border: 1px solid white;
+        border-radius: 20px;
+    }   
+    .sing:hover {
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+    }
+    a {
+        text-decoration: inherit;
+        color: white;
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    a:hover {
+        color: gray;
+    }
+    .mainHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;  
+        background: url(fon2.jpg) no-repeat center;
+        box-shadow: 0 0 0 1920px rgba(0, 0, 0, 0.33) inset;
+    }
+    .mainMenu {
+        display: none;
+    }
+    .leftBlock {
+        width: 100px;
+    }
+    nav{
+        width: calc(100% - 100px);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navigation {
+        padding-left: 60px;
+    }
+    header {
+        padding: 30px 0px;
+        width: calc(100% - 10%);
+        max-width: 1400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    hr {
+        width: calc(100% - 10%);
+        margin: 0;
+        max-width: 1400px;
+        color: lightgray;  
+    }
+    main {
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .text {
+        margin: 15% 0 5% 0;
+        font-size: 2vmax; /*28px;*/
+        font-family: 'Poppins', sans-serif;
+    } 
+    .mainText, .text {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .mainText {
+        margin: 5% 0 5% 0;
+        }
+    .mainInfo {
+        margin-bottom: 5%;
+    }
+    .below {
+        margin-bottom: 5%;
+    }
+    
+    .learn, .down {
+        width: 155px;
+        border-radius: 20px;
+        border: 1px solid #ff5076;
+        color: #ff5076;
+    }
+    .learn:hover, 
+    .down:hover {
+        width: 155px;
+        border-radius: 20px;
+        border: 1px solid #ff5076;
+        background: #ff5076;
+        color: white;
+    }
+    article {
+        padding: 100px 0;
+        margin: auto;
+        width: calc(100% - 10%);
+        max-width: 1400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .block {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;  
+        margin: 0;
+        width: 30vw ;
+        color: gray;
+        line-height: 1.7;
+    }
+    .icon{
+        padding-right: 10px;
+        color: #ff5076;
+    }
+    span {
+        color: black;
+    }
+    form {
+        
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .logotip {
+        font-size: 24px; 
+        color: lightgrey;
+    }
+    .up {
+        display: none;
+    }
+     a {
+        text-decoration: inherit;
+        color: white;
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .logColor, h1, 
+    .mainText {
+        margin: 0;
+        color: white;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        border-bottom: 1px solid lightgrey;       
+        padding: 5px 0;
+    }
+    li:nth-child(1) {
+        border-top: 1px solid lightgrey; 
+    }
+    body{
+        margin: 0;
+    }
+    .mainMenu:hover,
+    .mainMenu:active,
+    nav {
+        cursor: pointer;
+    }
+    .mainMenu:active{
+        color: gray;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    nav {
+        display: none;
+    }
+    .mainHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;       
+        background: url(fon2.jpg) no-repeat center;
+        box-shadow: 0 0 0 1920px rgba(0, 0, 0, 0.33) inset;
+    }
+    header {
+        padding: 30px 0px 25px 0px;
+        width: calc(100% - 10%); 
+        color: white;
+        /* 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        */
+    }
+    .leftBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    hr {
+        width: calc(100% - 10%);
+        color: lightgray;  
+    }
+    main {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .text {
+        margin: 15vh 0 5vh 0;
+        font-size: 2vmax; /*28px;*/
+        font-family: 'Poppins', sans-serif;
+    } 
+    .mainText, .text {
+        width: calc(100vw - 20%);
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .mainText {
+        margin: 5vh 0 5vh 0;
+    }
+    .mainInfo {
+        margin-bottom: 5vh;
+    }
+    .below {
+        margin-bottom: 5vh;
+    }
+    
+    .learn, .down {
+        width: 155px;
+        border-radius: 20px;
+        border: 1px solid #ff5076;
+        color: #ff5076;
+    }
+    .learn:hover, 
+    .down:hover {
+        width: 155px;
+        border-radius: 20px;
+        border: 1px solid #ff5076;
+        background: #ff5076;
+        color: white;
+    }
+    article {
+        padding: 100px 0;
+        width: calc(100% - 10%);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .block {
+        display: flex;
+        flex-direction: row;    
+        width: 80%;
+        color: gray;
+        line-height: 1.7;
+    }
+    .icon {
+        margin: 0;
+        width: 50px;
+        color: #ff5076;
+    }
+    .footText {
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    span {
+        color: black;
+    } 
+}
